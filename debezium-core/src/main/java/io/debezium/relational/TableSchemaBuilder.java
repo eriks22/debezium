@@ -414,7 +414,7 @@ public class TableSchemaBuilder {
             }
         }
         else {
-            LOGGER.warn("Unexpected JDBC type '{}' for column '{}' that will be ignored", column.jdbcType(), column.name());
+            LOGGER.warn("Unexpected JDBC type '{}' for column '{}' that will be ignored. HELLO BRANDON", column.jdbcType(), column.name());
         }
     }
 
